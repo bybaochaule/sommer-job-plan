@@ -1,0 +1,17 @@
+interface:
+  display_name: "Sommer Job Plan"
+  short_description: "Erstellt praktische 6-Wochen-Sommerjob-Pläne mit Angebotsideen, Wochenaktionen, Trackern und Qualitätskontroll-Checklisten."
+  default_prompt: "Verwende den Skill sommer-job-plan, um einen realistischen 6-Wochen-Sommerjob-Aktionsplan ohne Einkommens- oder Erfolgsgarantie zu erstellen."
+
+policy:
+  allow_implicit_invocation: true
+  invocation_notes: "Auslösen, wenn der Nutzer nach Sommer Job Plan, Sommerjob-Plan, Ferienjob-Plan, studentischem Side-Hustle-Plan, Freelance-Starterplan, Angebotsideen, Trackern, wöchentlichen Schritten oder Qualitätskontroll-Checklisten fragt. Nicht auslösen für garantierte Einnahmen, Rechts-/Steuerberatung, riskante Finanzstrategien oder täuschende Geschäftstaktiken."
+
+dependencies:
+  tools: []
+  files:
+    - SKILL.md
+    - README.md
+    - references/style-guide.md
+    - assets/tracker-template.csv
+    - assets/quality-checklist-template.md
